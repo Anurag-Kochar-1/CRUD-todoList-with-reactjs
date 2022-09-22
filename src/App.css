@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 100;
+    height: 100vh;
+    background-color: #222831;
+}
+
+
+.input-container {
+    width: 100;
+    height: 60px;
+    /* border: 1px solid white; */
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.task-container {
+    width: 100;
+    height: auto;
+    /* border: 2px solid gold; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-item-main-container {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 10px;
+    width: 60%;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.task-item-btn-container {
+    /* border: 2px solid red; */
+    padding: 0 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+i {
+    margin: 10px;
+    text-decoration: none;
+}
+
+i:hover {
+    margin: 10px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.task-item-name-contianer {
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+  
+}
+
+.task-item-name-contianer > p {
+    color:  #EEEEEE;
+}
+
+.fa-square-check {
+    color: green;
+    background-color: transparent;
+}
+
+.checkbox-ticked {
+    color: white;
+    background-color: green;
+}
+
+.fa-circle-xmark{
+    color: tomato;
+}
+
+#markedCompleted {
+    background: #393E46;
+}
+
+.completed-text {
+    font-size: 20px;
+    color: #00ADB5;
+    margin: 20px;
+}
+
+
+.markedCompletedForP {
+    text-decoration: line-through;
+}
+
+/* Update task */
+
+.fa-pen-to-square {
+    color: yellow;
+}
+
+.inputForUpdatingTask {
+    width: 300px;
+}
+
+.edit-btn-onfocus {
+    color: gold;
+}
